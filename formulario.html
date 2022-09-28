@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body>
+    <center>
+      <h1>Formulario</h1>
+    </center>
+
+    <form action="envio.html" method="post">
+    <ul>
+        <li>
+      <label for="name">Nombre:</label>
+      <input type="text" name="nombre" id="name" placeholder="ingresar" />
+        </li>
+        <li>
+      <label for="apellido">apellido:</label>
+      <input type="text" name="apellido" id="apellido" placeholder="ingresar" />
+        </li>
+        <li>
+      <label for="mail">Correo electronico</label>
+      <input type="email" name="user_email" id="mail" placeholder="ingresar" />
+        </li>
+        <li>
+      <label for="msg">Mensaje:</label>
+      <textarea id="msg" name="user_message">ingresar</textarea>
+        </li>
+        
+    </ul>
+ 
+
+
+        <fieldset>
+            <legend>Tamaño</legend>
+            <p>
+                <input type="radio" name="tamaño" id="tam_1" value="pequeño">
+                <label for="tam_1">Pequeño</label>
+            </p>
+            <p>
+                <input type="radio" name="tamaño" id="tam_2" value="mediano">
+                <label for="tam_2">Mediano</label>
+            </p>
+            <p>
+                <input type="radio" name="tamaño" id="tam_3" value="grande">
+                <label for="tam_3">Grande</label>
+            </p>
+            <p>
+                <input type="checkbox" name="sabor_cereza" id="sabor_1" value="cereza">
+                <label for="sabor_1">Me gustan las cerezas</label>
+            </p>
+            <p>
+                <input type="checkbox" name="sabor_banana" id="sabor_2" value="banana">
+                <label for="sabor_2">Me gustan los plátanos</label>
+            </p>
+        </fieldset>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
