@@ -8,7 +8,58 @@
 </head>
 <body>
     <center>
-    <h1>Formulario de datos personales</h1>
+    <h1>Formulario</h1>
     </center>
+
+    <fieldset>
+        <legend>Formulario datos personales</legend>
+        <fieldset>
+    <form action="envio.html" method="post">
+        <ul>
+            <li>
+          <label for="name">Nombre:</label>
+          <input type="text" name="nombre" id="name" placeholder="ingresar" />
+            </li>
+            <li>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="apellido" id="apellido" placeholder="ingresar" />
+            </li>
+            <li>
+          <label for="curp">Curp</label>
+          <input type="text" name="curp" id="curp" placeholder="ingresar" />
+            </li>
+            <li>
+                <label for="curp">Dirección</label>
+          <input type="text" name="direcion" id="direc" placeholder="ingresar" />
+            </li>
+            
+        </ul>
+        
+        <h3>Seleccione su genero</h3>
+                <p>
+                    <input type="radio" name="hombre" id="tam_1" value="hombre">
+                    <label for="tam_1">Hombre</label>
+                </p>
+                <p>
+                    <input type="radio" name="mujer" id="tam_2" value="mujer">
+                    <label for="tam_2">Mujer</label>
+                </p>
+
+        <h3>¿cuales son sus ocupaciones?</h3> 
+        <p>
+            <input type="checkbox" name="estudiante" id="tam_3" value="estudiante">
+            <label for="tam_1">Estudiante</label>
+        </p>
+        <p>
+            <input type="checkbox" name="Empleado" id="tam_4" value="Empleado">
+            <label for="tam_2">Empleado</label>
+
+            <button type="submit">Enviar</button>
+
+               </fieldset>
+            </fieldset>
+        </form>
+
+
 </body>
 </html>
