@@ -1,0 +1,33 @@
+a{
+    background: grey;
+    text-decoration: none;
+}
+
+#cubierta{
+    width: 940px;
+    margin: 0px 15px 0px 15px;
+    background-color: blue;
+    padding: 0% 5% 0% 5%;
+}
+
+#logo{
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+h1, h2{
+    color: #FFF;
+
+}
+
+header{
+    background-color: #5F9DF7;
+    border-color:#1746A2;
+}
+
+nav a, nav a:visited{
+    background-color:  #083AA9;
+    color: #FFF;
+
+}
