@@ -6,7 +6,7 @@ a{
 #cubierta{
     width: 940px;
     margin: 0px 15px 0px 15px;
-    background-color: blue;
+    background-color: #A5C9CA;
     padding: 0% 5% 0% 5%;
 }
 
@@ -22,12 +22,21 @@ h1, h2{
 }
 
 header{
-    background-color: #5F9DF7;
+    background-color: #5f9df7;
     border-color:#1746A2;
 }
 
 nav a, nav a:visited{
-    background-color:  #083AA9;
+    background-color:  #5f9df7;
     color: #FFF;
 
+}
+
+nav a.selected, nav a:hover{
+color: #FFF
+}
+
+body {
+background-color: rgb(255, 255, 255) ;
+color: rgb(126, 126, 126);
 }
