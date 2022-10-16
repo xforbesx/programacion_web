@@ -15,6 +15,16 @@ body {
     padding: 0% 5% 0% 5%;
 }
 
+header{
+    float: left;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    margin-left: 0;
+    padding: 5px 0 0 0;
+    max-width: 100%;
+}
+
 #logo{
     text-align: center;
     margin-left: 0%;
@@ -43,11 +53,12 @@ footer{
 	text-align: center;
 	padding-top: 50px;
 	color: #ccc;
+    clear: both;
 }
 
 
 nav a, nav a:visited{
-    background-color:  #5f9df7;
+    background-color:  #1f4379;
     color: #FFF;
 
 }
@@ -85,11 +96,48 @@ ul{
 }
 
 
-#galeria li, p a.li{
+#galeria li
+{
     float: left;
 	width: 45%;
 	margin: 2.5%;
     background-color: #4188f359;
     color: rgb(126, 126, 126)
 
+}
+
+p a ul li{
+
+    margin: 0;
+    padding: 5%;
+    font-size: 9em;
+    color: rgb(126, 126, 126);
+
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;  
+}
+
+nav li{
+    display: inline-block;   
+}
+
+nav{
+    font-weight: 800;
+    padding: 15px 8px 8px 8px;
+}
+
+.icono-social{
+    width: 20px;
+    height: 20px;
+    margin-top: 0;
+    margin-bottom: 0; 
+    margin-left: 5px;
+    margin-right: 5px;
 }
