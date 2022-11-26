@@ -1,0 +1,8 @@
+$primary: rgb(0, 0, 0); 
+$font-family-base:'Dancing Script',cursive;
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+p{
+   color: $indigo-500;
+}
+
